@@ -608,12 +608,32 @@ video {
   margin-bottom: 1.75rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.ml-0 {
+  margin-left: 0px;
+}
+
+.mr-0 {
+  margin-right: 0px;
+}
+
 .flex {
   display: flex;
 }
 
 .justify-center {
   justify-content: center;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .bg-gray-100 {
@@ -634,6 +654,14 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .py-10 {
