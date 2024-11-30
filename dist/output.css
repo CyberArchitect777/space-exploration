@@ -592,6 +592,18 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
 }
 
+.bg-starbg {
+  background-image: url('https://res.cloudinary.com/dp1ehadna/image/upload/v1732987858/aperture-vintage-Z6EpCdMcoUU-unsplash_lf4uon.jpg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
 .p-4 {
   padding: 1rem;
 }
