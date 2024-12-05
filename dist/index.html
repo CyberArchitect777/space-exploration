@@ -7,12 +7,26 @@
         <title>Space Exploration</title>
     </head>
     <body class="container mx-auto grid grid-rows-[auto_1fr_auto] min-h-screen bg-black text-white">
+        <script src="https://kit.fontawesome.com/4061a3e2f4.js" crossorigin="anonymous"></script>
         <header class="flex p-4 border-2">
             <div class="flex justify-left">
                 <a href="index.html">Space Exploration</a>
             </div>
-            <nav class="ml-auto">
-                <a href="planets.html">Planets</a>
+            <nav class="">
+                <label class="ml-auto" for="menu-toggle"><i id="fa-icon" class="md:hidden block fa-solid fa-bars ml-auto my-auto"></i></label>
+                <input id="menu-toggle" type="checkbox" class="hidden peer" value="0">
+                <div class="hidden peer-checked:block md:hidden">
+                    <a class="px-4" href="timeline.html">Timeline</a>
+                    <a class="px-4" href="people.html">People</a>
+                    <a class="px-4" href="vehicles.html">Vehicles</a>
+                    <a class="px-4" href="gallery.html">Gallery</a>
+                </div>
+                <div class="hidden md:block ml-auto">
+                    <a class="px-4" href="timeline.html">Timeline</a>
+                    <a class="px-4" href="people.html">People</a>
+                    <a class="px-4" href="vehicles.html">Vehicles</a>
+                    <a class="px-4" href="gallery.html">Gallery</a>
+                </div>
             </nav>
         </header>
         <main class="bg-starbg3 bg-cover bg-center"> <!-- 2 rocket, 3 satellite, 5 - space -->
