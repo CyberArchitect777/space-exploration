@@ -8,25 +8,25 @@
     </head>
     <body class="container mx-auto grid grid-rows-[auto_1fr_auto] min-h-screen bg-black text-white">
         <script src="https://kit.fontawesome.com/4061a3e2f4.js" crossorigin="anonymous"></script>
-        <header class="flex p-4 border-2">
-            <div class="flex justify-left">
-                <a href="index.html">Space Exploration</a>
-            </div>
-            <nav class="">
-                <label class="ml-auto" for="menu-toggle"><i id="fa-icon" class="md:hidden block fa-solid fa-bars ml-auto my-auto"></i></label>
+        <header>
+            <nav class="p-2 border-2">
+                <div class="flex">
+                    <a class="flex pl-3" href="index.html">Space Exploration</a>
+                    <label class="ml-auto" for="menu-toggle"><i id="fa-icon" class="md:hidden block fa-solid fa-bars ml-auto my-auto"></i></label>
+                    <div class="hidden md:block ml-auto">
+                        <a class="px-4" href="timeline.html">Timeline</a>
+                        <a class="px-4" href="people.html">People</a>
+                        <a class="px-4" href="vehicles.html">Vehicles</a>
+                        <a class="px-4" href="gallery.html">Gallery</a>
+                    </div>
+                </div>
                 <input id="menu-toggle" type="checkbox" class="hidden peer" value="0">
-                <div class="hidden peer-checked:block md:hidden">
-                    <a class="px-4" href="timeline.html">Timeline</a>
-                    <a class="px-4" href="people.html">People</a>
-                    <a class="px-4" href="vehicles.html">Vehicles</a>
-                    <a class="px-4" href="gallery.html">Gallery</a>
-                </div>
-                <div class="hidden md:block ml-auto">
-                    <a class="px-4" href="timeline.html">Timeline</a>
-                    <a class="px-4" href="people.html">People</a>
-                    <a class="px-4" href="vehicles.html">Vehicles</a>
-                    <a class="px-4" href="gallery.html">Gallery</a>
-                </div>
+                <ul class="hidden md:hidden md:peer-checked:hidden peer-checked:block w-full mt-3">
+                    <li><a class="flex flex-1 justify-center md:hidden" href="timeline.html">Timeline</a></li>
+                    <li><a class="flex flex-1 justify-center md:hidden" href="people.html">People</a></li>
+                    <li><a class="flex flex-1 justify-center md:hidden" href="vehicles.html">Vehicles</a></li>
+                    <li><a class="flex flex-1 justify-center md:hidden" href="gallery.html">Gallery</a></li>
+                </ul>
             </nav>
         </header>
         <main class="bg-starbg3 bg-cover bg-center"> <!-- 2 rocket, 3 satellite, 5 - space -->
