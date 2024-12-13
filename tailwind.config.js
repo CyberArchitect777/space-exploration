@@ -10,6 +10,7 @@ module.exports = {
         "starbg4": "url('https://res.cloudinary.com/dp1ehadna/image/upload/v1732992313/qmjzt66z8zbwzvdid6ee.jpg')",
         "starbg5": "url('https://res.cloudinary.com/dp1ehadna/image/upload/v1732992314/ufp8xr5c66wcehfufnw5.jpg')",
         "starbg6": "url('https://res.cloudinary.com/dp1ehadna/image/upload/v1732992315/k3bcqtldouvbkxw2kp2k.jpg')",
+        "starbg3-gradient5": "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/dp1ehadna/image/upload/v1732992313/c1qlgorinpeysxbogplt.jpg')",
       }
     },
   },
