@@ -1,41 +1,54 @@
 <!DOCTYPE html>
 <html lang='en'>
-    <head>
-        <meta charset='UTF-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <link href='output.css' rel='stylesheet'>
-        <title>Space Exploration</title>
-    </head>
-    <body class="container mx-auto grid grid-rows-[auto_1fr_auto] min-h-screen bg-black text-white">
-        <script src="https://kit.fontawesome.com/4061a3e2f4.js" crossorigin="anonymous"></script>
-        <header class="fg-white">
-            <nav class="p-2 border-2">
-                <div class="flex">
-                    <a class="flex pl-1" href="index.html">Space Exploration</a>
-                    <label class="ml-auto" for="menu-toggle"><i id="fa-icon" class="md:hidden block fa-solid fa-bars ml-auto my-auto"></i></label>
-                    <div class="hidden md:block ml-auto">
-                        <a class="pl-3 ml-auto" href="timeline.html">Timeline</a>
-                        <a class="pl-3 ml-auto" href="people.html">People</a>
-                        <a class="pl-3 ml-auto" href="vehicles.html">Vehicles</a>
-                        <a class="pl-3 pr-1 ml-auto" href="gallery.html">Gallery</a>
-                    </div>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link href='output.css' rel='stylesheet'>
+    <title>Space Exploration</title>
+</head>
+
+<body class="container mx-auto grid grid-rows-[auto_1fr_auto] min-h-screen bg-black text-white">
+    <script src="https://kit.fontawesome.com/4061a3e2f4.js" crossorigin="anonymous"></script>
+    <header class="fg-white">
+        <nav class="p-2 border-2">
+            <div class="flex">
+                <a class="flex pl-1" href="index.html">Space Exploration</a>
+                <label class="ml-auto" for="menu-toggle"><i id="fa-icon"
+                        class="md:hidden block fa-solid fa-bars ml-auto my-auto"></i></label>
+                <div class="hidden md:block ml-auto">
+                    <a class="pl-3 ml-auto" href="timeline.html">Timeline</a>
+                    <a class="pl-3 ml-auto" href="people.html">People</a>
+                    <a class="pl-3 ml-auto" href="vehicles.html">Vehicles</a>
+                    <a class="pl-3 pr-1 ml-auto" href="gallery.html">Gallery</a>
                 </div>
-                <input id="menu-toggle" type="checkbox" class="hidden peer" value="0">
-                <ul class="hidden md:hidden md:peer-checked:hidden peer-checked:block w-full mt-3">
-                    <li><a class="flex flex-1 justify-center md:hidden" href="timeline.html">Timeline</a></li>
-                    <li><a class="flex flex-1 justify-center md:hidden" href="people.html">People</a></li>
-                    <li><a class="flex flex-1 justify-center md:hidden" href="vehicles.html">Vehicles</a></li>
-                    <li><a class="flex flex-1 justify-center md:hidden" href="gallery.html">Gallery</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main class="bg-starbg3-gradient5 bg-cover bg-center"> <!-- 2 rocket, 3 satellite, 5 - space -->
-                <h1 class="fg-white text-5xl font-bold my-7 text-center">Space Exploration</h1>
-                <p class="text-2xl text-center">Welcome to Space Exploration, a site to showcase humanity's mission to explore beyond the planet Earth</p>
             </div>
-        </main>
-        <footer class="flex justify-center border-2">
-            <p>Created by Barrie Millar (2024)</p>
-        </footer>
-    </body>
+            <input id="menu-toggle" type="checkbox" class="hidden peer" value="0">
+            <ul class="hidden md:hidden md:peer-checked:hidden peer-checked:block w-full mt-3">
+                <li><a class="flex flex-1 justify-center md:hidden" href="timeline.html">Timeline</a></li>
+                <li><a class="flex flex-1 justify-center md:hidden" href="people.html">People</a></li>
+                <li><a class="flex flex-1 justify-center md:hidden" href="vehicles.html">Vehicles</a></li>
+                <li><a class="flex flex-1 justify-center md:hidden" href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="bg-starbg3-gradient5 bg-cover bg-center flex flex-col justify-center items-center">
+        <!-- 2 rocket, 3 satellite, 5 - space -->
+        <h1 class="fg-white text-7xl font-bold my-10 text-center">Space Exploration</h1>
+        <h2 class="text-2xl text-center my-10">Welcome to Space Exploration, a site to showcase humanity's mission to
+            explore
+            beyond the planet Earth</h2>
+        <p class="mt-4 text-center text-1xl m-10">The exploration of space is perhaps humanity's greatest achievement
+            and also its most significant future challenge, combining technology and human endeavour to uncover the
+            mysteries of the cosmos. From the earliest rocket launches to modern-day missions to Mars and beyond, our
+            journey into space showcases the immense potential of human innovation and cooperation. Here, you can
+            explore the timeline of our space exploration efforts, learn about the key people and vehicles involved, and
+            view some of the most remarkable photographs taken.</p>
+        </div>
+    </main>
+    <footer class="flex justify-center border-2">
+        <p>Created by Barrie Millar (2024)</p>
+    </footer>
+</body>
+
 </html>
